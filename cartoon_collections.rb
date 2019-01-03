@@ -81,7 +81,7 @@ end
   #puts found_cheeses
   
 
-find_the_cheese(cheddar_cheese, cheese_types)
+find_the_cheese(cheddar_cheese)
 
 ### TESTS ###
 =begin
