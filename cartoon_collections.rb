@@ -60,6 +60,7 @@ def find_the_cheese(cheddar_cheese, cheese_types)
   cheddar_cheese.index { |array_objects| cheese_types.include?(array_objects)}
   binding.pry
   puts "true" 
+end 
   
   # cheddar_cheese.collect |array_objects|
   #if array_objects == cheese_types.any? |cheeses|
