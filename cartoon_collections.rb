@@ -57,11 +57,13 @@ cheddar_cheese = ["banana", "cheddar", "sock"]
 cheese_types = ["cheddar", "gouda", "camembert"]
 def find_the_cheese(cheddar_cheese)
   
-  cheese_detected = cheddar_cheese.detect { |array_objects| ["cheddar", "gouda", "camembert"].include?(array_objects)}
+  cheese_detected = cheddar_cheese.detect do |array_objects| ["cheddar", "gouda", "camembert"].include?(array_objects)
 
- cheese_detected
-   binding.pry
+
+  # binding.pry
 end 
+ cheese_detected
+ end 
   
   # cheddar_cheese.collect |array_objects|
   #if array_objects == cheese_types.any? |cheeses|
