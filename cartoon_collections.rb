@@ -55,7 +55,7 @@ end
 cheddar_cheese = ["banana", "cheddar", "sock"]
 #no_cheese = ["ham", "cellphone", "computer"]
 cheese_types = ["cheddar", "gouda", "camembert"]
-def find_the_cheese(cheddar_cheese, cheese_types)
+def find_the_cheese(cheddar_cheese)
   
   cheese_detected = cheddar_cheese.detect { |array_objects| cheese_types.include?(array_objects)}
 
