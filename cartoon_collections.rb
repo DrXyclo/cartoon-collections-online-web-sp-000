@@ -58,7 +58,7 @@ end
 # no_cheese = ["ham", "cellphone", "computer"]
 # cheese_types = ["cheddar", "gouda", "camembert"]
 
-##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##
+#________________________________________________________
 
 def find_the_cheese(cheddar_cheese)
   
