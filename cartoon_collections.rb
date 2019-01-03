@@ -52,18 +52,20 @@ end
 
 # long_planeteer_calls(calls_long) ## Test Code ##
 
-cheddar_cheese = ["banana", "cheddar", "sock"]
-#no_cheese = ["ham", "cellphone", "computer"]
-cheese_types = ["cheddar", "gouda", "camembert"]
+### TEST CODE ###
+
+# cheddar_cheese = ["banana", "cheddar", "sock"]
+# no_cheese = ["ham", "cellphone", "computer"]
+# cheese_types = ["cheddar", "gouda", "camembert"]
+
+######################################################
 def find_the_cheese(cheddar_cheese)
   
-  cheese_detected = cheddar_cheese.detect do |array_objects| ["cheddar", "gouda", "camembert"].include?(array_objects)
-
-
-  # binding.pry
-end 
+  cheese_detected = cheddar_cheese.detect do |array_objects| 
+    ["cheddar", "gouda", "camembert"].include?(array_objects)
+  end 
  cheese_detected
- end 
+end 
   
   # cheddar_cheese.collect |array_objects|
   #if array_objects == cheese_types.any? |cheeses|
