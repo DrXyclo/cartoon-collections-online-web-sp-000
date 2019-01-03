@@ -58,8 +58,9 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 def find_the_cheese(cheddar_cheese, cheese_types)
   
   cheese_detected = cheddar_cheese.detect { |array_objects| cheese_types.include?(array_objects)}
-  # binding.pry
+
  cheese_detected
+   binding.pry
 end 
   
   # cheddar_cheese.collect |array_objects|
