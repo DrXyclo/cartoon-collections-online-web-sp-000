@@ -58,34 +58,16 @@ end
 # no_cheese = ["ham", "cellphone", "computer"]
 # cheese_types = ["cheddar", "gouda", "camembert"]
 
-######################################################
+##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##
+
 def find_the_cheese(cheddar_cheese)
   
   cheese_detected = cheddar_cheese.detect do |array_objects| 
     ["cheddar", "gouda", "camembert"].include?(array_objects)
   end 
  cheese_detected
-end 
-  
-  # cheddar_cheese.collect |array_objects|
-  #if array_objects == cheese_types.any? |cheeses|
-   # binding.pry
-    #puts "true"
-    #end 
-  
-    # end
-   
-   
-  # cheddar_cheese.include?(cheese_types)
-  # puts "true"
-  
-  
-  #found_cheeses = cheese_types.find_index(cheddar_cheese)
-  #binding.pry
-  #puts found_cheeses
-  
-
-find_the_cheese(cheddar_cheese)
+end
+# find_the_cheese(cheddar_cheese) ### Test code @@@
 
 ### TESTS ###
 =begin
